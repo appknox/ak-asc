@@ -1,0 +1,12 @@
+ak-asc
+Copyright 2026 Appknox
+
+This product is a fork of Droid ASC (droidasc), created by MG1937 (aldys4) and
+licensed under the Apache License, Version 2.0:
+https://github.com/MG1937/ASC
+
+Modifications by Appknox:
+- Correct MUTF-8 string decoding so obfuscated (non-ASCII) class names resolve.
+- Ship every subpackage so the wheel is complete and importable.
+
+The importable package name remains `droidasc`.
